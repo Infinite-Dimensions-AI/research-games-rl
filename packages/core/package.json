@@ -1,0 +1,41 @@
+{
+  "name": "@infinite-dimensions-ai/research-games-rl-core",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "NEAT-style evolutionary training over independently packaged browser games",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infinite-Dimensions-AI/research-games-rl.git",
+    "directory": "packages/core"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "@infinite-dimensions-ai/research-games-rl-platformer": "workspace:^",
+    "@infinite-dimensions-ai/research-games-rl-types": "workspace:^"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6",
+    "typescript": "~5.9.3"
+  }
+}

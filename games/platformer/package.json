@@ -1,0 +1,38 @@
+{
+  "name": "@infinite-dimensions-ai/research-games-rl-platformer",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Original deterministic browser platformer game and sensor observations for research-games-rl",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infinite-Dimensions-AI/research-games-rl.git",
+    "directory": "games/platformer"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@infinite-dimensions-ai/research-games-rl-types": "workspace:^"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}

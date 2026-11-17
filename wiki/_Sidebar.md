@@ -1,0 +1,4 @@
+- [Home](Home)
+- [Documentation](https://infinite-dimensions-ai.github.io/research-games-rl/)
+- [Interactive demo](https://infinite-dimensions-ai.github.io/research-games-rl/demo/)
+- [Milestones](https://github.com/Infinite-Dimensions-AI/research-games-rl/blob/main/todo.md)
