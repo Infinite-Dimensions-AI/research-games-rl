@@ -1,0 +1,3 @@
+#!/bin/sh
+branch=$(git branch --show-current 2>/dev/null)
+if [ "$branch" = "main" ]; then corepack yarn check || exit $?; fi
