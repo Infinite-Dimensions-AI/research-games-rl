@@ -12,7 +12,8 @@
 - [x] M0.2 Node 24, Yarn 4, Turborepo workspaces and shared versioned types
 - [x] M0.3 Changesets, local-only Git flow and manual package scripts
 - [x] M0.4 VitePress and GitHub Pages deployment scaffolding
-- [ ] M0.5 User-controlled initial commit, push, Pages deployment and Wiki publication
+- [x] M0.5 Initial source commit, v0.1.0 release, main push and GitHub Pages gh-pages publication (explicit user request)
+- [ ] M0.6 Publish the first GitHub Wiki pages separately
 
 ## M1 — MarI/O-inspired browser experiment
 

@@ -63,8 +63,8 @@ corepack yarn check
 
 ## Docs, Wiki and Pages
 
-- [VitePress documentation](https://infinite-dimensions-ai.github.io/research-games-rl/) — **not live until the first deployment**.
-- [Interactive game/demo](https://infinite-dimensions-ai.github.io/research-games-rl/demo/) — **not live until the first deployment**.
+- [VitePress documentation](https://infinite-dimensions-ai.github.io/research-games-rl/) — **live on GitHub Pages**.
+- [Interactive game/demo](https://infinite-dimensions-ai.github.io/research-games-rl/demo/) — **play the published MarI/O-style research application**.
 - [GitHub Wiki](https://github.com/Infinite-Dimensions-AI/research-games-rl/wiki) — enabled, first page needs publishing.
 - [Original source study](./docs/original-mar-io.md) and [research methodology](./docs/methodology.md).
 - [Algorithms and mathematics](./docs/algorithm.md).
@@ -73,7 +73,7 @@ corepack yarn check
 - [Full Git flow, Changesets, releases and Pages instructions](./docs/workflow.md).
 - [Orchestra milestones — todo.md](./todo.md).
 
-To publish docs after **you** make the initial commit/push: `corepack yarn docs:deploy` (an explicit push of compiled static artifacts to `gh-pages`). No GitHub Actions workflows have been created.
+**GitHub Pages is active** and publishes the locally built VitePress site and browser demo from the `gh-pages` branch. For later documentation releases, run `corepack yarn docs:deploy` explicitly; no custom GitHub Actions workflows have been created. The initial public GitHub release is [v0.1.0](https://github.com/Infinite-Dimensions-AI/research-games-rl/releases/tag/v0.1.0).
 
 ## Git flow and releases
 
